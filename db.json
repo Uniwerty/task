@@ -154,5 +154,157 @@
     ],
     "mass": 0.05
   }
+],
+	
+"task2": [
+	{
+	"id": "1",
+	"name": "лоток 1",
+	"mass": 4.9,
+	"thickness": "1.5",
+	"diameter": 900,
+	"width": "20",
+	"symbol": "Л",
+	"symbol_count": "2",
+	"reference_id": [
+	2
+	],
+	"height": "110",
+	"shelf_width": 500
+	},
+	{
+	"id": "2",
+	"name": "консоль 1",
+	"symbol": "К",
+	"symbol_count": "2",
+	"reference_id": [
+	1,
+	3
+	],
+	"mass": 2.2
+	},
+	{
+	"id": "3",
+	"name": "профиль 1",
+	"mass": 3.2,
+	"thickness": "1.5",
+	"width": "50",
+	"height": "500",
+	"symbol": "П",
+	"symbol_count": "5"
+	}
+],
+	"task3":[
+	{
+	"id": "1",
+	"name": "лоток 1",
+	"mass": 4.9,
+	"thickness": "1.5",
+	"diameter": 900,
+	"width": "20",
+	"symbol": "Л",
+	"symbol_count": "2",
+	"reference_id": [
+	3
+	],
+	"height": "110",
+	"shelf_width": 500
+	},
+	{
+	"id": "2",
+	"name": "фиксатор консольный 1",
+	"symbol": "Ф",
+	"symbol_count": "1",
+	"reference_id": [
+	1,
+	3
+	],
+	"mass": 0.05
+	},
+	{
+	"id": "3",
+	"name": "консоль 1",
+	"symbol": "К",
+	"symbol_count": "4",
+	"reference_id": [
+	1,
+	4,
+	9
+	],
+	"mass": 0.2
+	},
+	{
+	"id": "4",
+	"name": "профиль 1",
+	"mass": 1.3,
+	"thickness": "1.3",
+	"width": "50",
+	"height": "500",
+	"symbol": "П",
+	"symbol_count": "5"
+	},
+	{
+	"id": "5",
+	"name": "крепление к полу 1",
+	"symbol": "Р",
+	"symbol_count": "2",
+	"reference_id": [
+	4
+	],
+	"mass": 20.9,
+	"thickness": "5.5",
+	"height": "40",
+	"shelf_width": 145
+	},
+	{
+	"id": "6",
+	"name": "фиксатор консольный 2",
+	"symbol": "Ф",
+	"symbol_count": "1",
+	"reference_id": [
+	1,
+	3
+	],
+	"mass": 0.2
+	},
+	{
+	"id": "7",
+	"name": "анкер 1",
+	"symbol": "А",
+	"symbol_count": "1",
+	"reference_id": [
+	5
+	],
+	"mass": 0.05
+	},
+	{
+	"id": "8",
+	"name": "фиксатор консольный 3",
+	"symbol": "Ф",
+	"symbol_count": "1",
+	"reference_id": [
+	3,
+	9
+	],
+	"mass": 48.9,
+	"thickness": "7.5",
+	"height": "360",
+	"shelf_width": 145
+	},
+	{
+	"id": "9",
+	"name": "лоток 2",
+	"mass": 4.9,
+	"thickness": "1.5",
+	"diameter": 900,
+	"width": "30",
+	"symbol": "Л",
+	"symbol_count": "2",
+	"reference_id": [
+	3
+	],
+	"height": "110",
+	"shelf_width": 500
+	}
 ]
 }
