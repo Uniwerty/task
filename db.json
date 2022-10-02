@@ -1,6 +1,4 @@
 {
-  "posts": [
-    {
 "id": "1",
 "name": "лоток 1",
 "mass": 4.9,
@@ -35,9 +33,4 @@
 "height": "500",
 "symbol": "П",
 "symbol_count": "5"
-}
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
